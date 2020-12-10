@@ -337,4 +337,12 @@ footer ul {
 
 .villa-img-border{
 	border-bottom: solid 1px black;
+	
+}
+
+
+@media screen and (min-width: 500px){
+	.villa-img-border{
+			border: none;
+	}
 }
