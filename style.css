@@ -56,7 +56,6 @@ body {
 
 .arrow {
   color: white;
-  width: rem;
 }
 
 .ourcom {
@@ -341,8 +340,205 @@ footer ul {
 }
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 900px){
 	.villa-img-border{
 			border: none;
 	}
+}
+
+.gp-modal-customer-button {
+	color: white;
+	font-weight: bold;
+	width: 20rem;
+	margin-top: 2rem;
+	border-radius: .5rem;
+	background: rgb(250,174,47);
+    background: linear-gradient(45deg, rgba(250,174,47,1) 0%, rgba(231,31,142,1) 100%);
+}
+
+.gp-modal-guest-button {
+	color: white;
+	font-weight: bold;
+	width: 20rem;
+	margin: 2rem 0 2rem 0;
+	border-radius: .5rem;
+	background: rgb(100,66,149);
+    background: linear-gradient(45deg, rgba(100,66,149,1) 0%, rgba(105,169,220,1) 100%);
+}
+
+.gp-go-icon{
+	background: rgb(250,174,47);
+    background: linear-gradient(45deg, rgba(250,174,47,1) 0%, rgba(231,31,142,1) 100%);
+	border-radius: 100%;
+	width: 3rem;
+	height: 3rem;
+}
+.gp-go-right{
+	margin-top: 0.5rem;
+	color: white;
+}
+
+.gp-go-left{
+	margin-top: 0.5rem;
+	margin-left: .7rem;
+	color: white;
+}
+
+.signup-btn{
+	border: solid 1px gray;
+	margin-bottom: 1rem;
+}
+
+.signup-btn:hover{
+	background-color: gray;
+	color: white;
+}
+
+.google-btn {
+	color: red;
+	border: solid 1px red;
+	margin-right: 1rem;
+}
+
+.google-btn:hover{
+	background-color: red;
+	color: white;
+}
+
+.fb-btn {
+	color: blue;
+	border: solid 1px blue;
+	margin-left: 1rem;
+}
+
+.fb-btn:hover{
+	background-color: blue;
+	color: white;
+}
+
+.gp-p {
+	text-align: center;
+	max-width: 37.5rem;
+	position: relative;
+}
+
+.gp-p:before, .gp-p:after{
+	content: "";
+	display: block;
+	width: 5rem;
+	height: .08rem;
+	background: gray;
+	position: absolute;
+	top: 50%;
+}
+
+.gp-p:before{
+	left: -6rem;
+}
+
+.gp-p:after{
+	right: -6rem;
+}
+
+.m-r-btn{
+	border: solid 1px gray;
+	background-color: gray;
+	width: 10rem;
+	height: 2.5rem;
+	margin: 2rem;
+}
+
+.apr-div{
+	width: 10rem;
+	height: 10rem;
+	margin: 3rem 1rem;
+}
+
+.dp-div{
+	border-radius: 2rem;
+	background: rgb(250,174,47);
+    background: linear-gradient(45deg, rgba(250,174,47,1) 0%, rgba(231,31,142,1) 100%);
+	margin: 5rem;
+	justify-content: center;
+	width: 20rem;
+	padding: 2rem;
+}
+
+.dp-h5{
+	color: white;
+	font-weight: bold;
+}
+
+.cloud-img-div{
+	width: 30rem;
+	height: 30rem;
+	padding: 2rem;
+}
+
+.input-file[type="file"]{
+	display: none;
+}
+
+.gallery-btn{
+	width: 15rem;
+	height: 3rem;
+	border-radius: .6rem;
+	background: rgb(250,174,47);
+    background: linear-gradient(45deg, rgba(250,174,47,1) 0%, rgba(231,31,142,1) 100%);
+	color: white;
+	cursor: pointer;
+}
+
+.gallery-btn:hover{
+	color: white;
+}
+
+.pay-btn1{
+	width: 20rem;
+	height: 2.5rem;
+	background-color: #34224E;
+	color: white;
+	text-align: center;
+	margin: 1rem 0;
+	font-weight: bold;
+	float: none;
+	border-radius: .5rem;
+}
+.pay-btn1:hover{
+	color: white;
+}
+
+.pay-btn2{
+	width: 20rem;
+	height: 2.5rem;
+	background-color: #644295;
+	color: white;
+	text-align: center;
+	margin: 1rem 0;
+	font-weight: bold;
+	float: none;
+	border-radius: .5rem;
+}
+.pay-btn2:hover{
+	color: white;
+}
+
+.pay-btn3{
+	width: 20rem;
+	height: 2.5rem;
+	background-color: #8561B9;
+	color: white;
+	text-align: center;
+	margin: 1rem 0;
+	font-weight: bold;
+	float: none;
+	border-radius: .5rem;
+}
+.pay-btn3:hover{
+	color: white;
+}
+
+.govern-collpase{
+	box-shadow: 1px 1px 1px 1px darkgray;
+	border-radius: .3rem;
 }
