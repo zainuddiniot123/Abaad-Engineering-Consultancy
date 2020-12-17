@@ -13,7 +13,9 @@
 		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<!-- Navbar -->
+
+	<body>
+		<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg bg-white">
 		<a class="navbar-brand" href="index.html"
 			><img src="img/logo.png" class="img-fluid myLogo"
@@ -43,8 +45,8 @@
 					<a class="nav-link myNavlink" href="#">About us</a>
 				</li>
 				<li class="nav-item myNavlink">
-					<a class="nav-link myNavlink" href="#">Contact us</a>
-				</li>
+            		<a class="nav-link myNavlink" href="#contactus" data-toggle="modal">Contact us</a>
+          		</li>
 				<li class="nav-item myNavlink">
 					<a class="nav-link myNavlink" href="#joinus" data-toggle="modal">
 						Join us
@@ -80,79 +82,7 @@
 	</div>
 
 	<!--	CarouselEnd-->
-	<!-- <div class="container">
-		<div class="row">
-			<div class="col-md-12 m-auto text-center">
-				<img src="img/upload-to-cloud-01.png" alt="" class="img-fluid cloud-img-div">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h3 class="font-weight-bold mt-0">Let's upload documents</h3>
-
-				<p>Add documents from your phone/system or<br>Open camera to scan new documents.</p>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<div class="container-fluid text-center">
-				<label for="files" class="gallery-btn text-center">
-						<span class="fa fa-image fa-2x mr-2 ml-2"></span>
-						Open Gallery
-				</label>
-				<input id="files" style="visibility:hidden;" type="file" class="text-center">
-				</div>
-			</div>
-		</div>
-		
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<a href="Camera.html">
-						<button class="btn gallery-btn">
-							<span class="fa fa-camera fa-2x mr-2 ml-2"></span>
-						Open Camera
-						</button>
-					</a>
-			</div>
-		</div>
-	</div>
 	
-	<div class="container mt-5 mb-5">
-		<div class="container-fluid text-center m-auto">
-			<div class="container">
-				<div class="row m-auto">
-					<div class="cloud-img-div m-auto">
-						<img src="img/upload-to-cloud-01.png" alt="" class="img-fluid">
-					</div>
-				</div>
-
-				<h3 class="font-weight-bold mt-0">Let's upload documents</h3>
-
-				<p>Add documents from your phone/system or<br>Open camera to scan new documents.</p>
-			</div>
-			<div class="container m-auto">
-				<div class="row m-auto">
-					<label for="files" class="gallery-btn m-auto">
-						<span class="fa fa-image fa-2x mr-2 ml-2 mt-2"></span>
-						Open Gallery
-					</label>
-					<input id="files" style="visibility:hidden;" type="file">
-				</div>
-			</div>
-			<div class="container m-auto">
-				<div class="row m-auto">
-					<a href="Camera.html">
-						<button class="btn gallery-btn">
-							<span class="fa fa-camera fa-2x mr-2 ml-2"></span>
-						Open Camera
-						</button>
-					</a>
-				</div>
-			</div>
-		</div>
-  </div> -->
-
 	<div class="main_uploadDocument">
 		<img src="img/upload-to-cloud-01.png" alt="" class="img-fluid" />
 		<div class="text">
@@ -396,6 +326,58 @@
 		</div>
 	</div>
 	<!--	  Signup Modal End-->
+	
+	<!--	  Contact Us Modal Start-->
+	  <div class="container-fluid">
+      <div class="modal fade" id="contactus">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content text-center">
+            <div class="modal-footer">
+              <span class="fa fa-window-close" data-dismiss="modal"></span>
+            </div>
+
+            <div class="modal-header justify-content-center">
+              <img src="img/logo.png" alt="" class="img-fluid" />
+            </div>
+            <div class="modal-body contact-modal-body mb-5">
+              	<div class="container mt-2">
+					<div class="container-fluid text-center m-auto contact-modal">
+						<div class="container">
+							<a href="tel:+971 92 37 3305">
+								<button class="btn cu-phn-btn"><span class="fa fa-phone-alt mr-2"></span>+971 92 37 3305</button>
+							</a>
+						</div>
+						<div class="container">
+							<a href="">
+								<button class="btn cu-insta-btn"><span class="fa fa-instagram mr-2"></span>Abaad_2014</button>
+							</a>
+						</div>
+						<div class="container">
+							<a href="">
+								<button class="btn cu-mail-btn"><span class="fa fa-envelope mr-2"></span>Eng.abaad@gmail.com</button>
+							</a>
+						</div>
+						<div class="container">
+							<a href="">
+								<button class="btn cu-wa-btn"><span class="fa fa-whatsapp mr-2"></span>+971 50 336 4408</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<p class="cu-h mb-0">Or Let's have a chat here</p>
+					<div class="container">
+							<a href="">
+								<button class="btn cu-cr-btn"><span class="fa fa-comment-alt mr-2"></span>CHAT ROOM</button>
+							</a>
+						</div>
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--	  Contact Us Modal End-->
 
 	<!-- Bootstrap CDN -->
 	<script
@@ -414,6 +396,5 @@
 		src="https://kit.fontawesome.com/f77cc467b9.js"
 		crossorigin="anonymous"
 	></script>
-
-	<body></body>
+	</body>
 </html>
